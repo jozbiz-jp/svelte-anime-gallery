@@ -1,12 +1,12 @@
 <script>
-	import CategoriesGallery from '../components/CategoriesGallery.svelte';
-	import Navbar from '../components/Navbar.svelte';
+	import ImageGallery from '../../components/ImageGallery.svelte';
+	import Navbar from '../../components/Navbar.svelte';
 </script>
 
 <main>
 	<Navbar />
 	<div class="sv-page-wrapper">
-		<CategoriesGallery />
+		<ImageGallery />
 	</div>
 </main>
 
