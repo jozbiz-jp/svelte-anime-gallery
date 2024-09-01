@@ -3,7 +3,8 @@
 
 <head>
 	<meta charset="utf-8" />
-	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+	<title>SANIME Gallery</title>
+	<link rel="icon" href="%sveltekit.assets%/favicon.jpg" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +15,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 	<!-- Compiled and minified JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	%sveltekit.head%
 </head>
 
@@ -25,6 +27,27 @@
 	body,
 	html {
 		font-family: "Lato", sans-serif;
+	}
+	.minh-vh {
+		min-height: 80vh;
+	}
+	.text-ucase {
+		text-transform: uppercase;
+	}
+	.page-title {
+		margin-bottom: 1.5rem;
+		padding-left: 1rem;
+		position: sticky;
+		top: 0;
+		z-index: 100;
+		background: #fff;
+		left: 0;
+		right: 0;
+		padding-bottom: 1rem;
+	}
+	.page-loading-image {
+		width: 100%;
+		height: 80vh;
 	}
 </style>
 
